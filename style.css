@@ -7,7 +7,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(https://web.facebook.com/photo/?fbid=2568286030067334&set=a.1409800425915906);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/bg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
