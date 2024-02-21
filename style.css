@@ -1,33 +1,25 @@
-
-
 *{
     margin:0;
     padding: 0;
 }
-
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/bg.avif);
+    object-fit: cover; /* Make the image fill the space while maintaining aspect ratio */
     height: 100vh;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
 .navbar{
     width: 1200px;
     height: 75px;
     margin: auto;
-   
-    
 }
-
 .icon{
     width:200px;
     height: 75px;
     float: left;
 }
-
 .logo{
     color: orange;
     font-size: 35px;
@@ -36,47 +28,37 @@
     padding-left: 20px;
     padding-top: 10px;
 }
-
 .menu{
     width:400px;
     float: left;
     height: 70px;
-    
 }
-
 ul{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
 ul li{
     list-style: none;
     margin-left: 62px;
     margin-top: 27px;
     font-size: 14px;
-    
 }
-
 ul li a{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
-
 ul li a:hover{
     color: orange;
 }
-
 .search{
     width: 330px;
     margin-left: 270px;
     float: left;
 }
-
 .srch{
     font-family: 'Times New Roman';
     width: 200px;
@@ -92,7 +74,6 @@ ul li a:hover{
     margin-right: -3px;
     border-right: none;
 }
-
 .btn{
     width: 100px;
     height: 40px;
@@ -104,18 +85,13 @@ ul li a:hover{
     font-size: 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-
 }
-
 .btn:focus{
     outline: none;
 }
-
 .srch:focus{
     outline: none;
 }
-
-
 .content{
     width: 1200px;
     height: auto;
@@ -123,7 +99,6 @@ ul li a:hover{
     color: white;
     position: relative;
 }
-
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
@@ -131,15 +106,12 @@ ul li a:hover{
     letter-spacing: 1.2px;
     line-height: 30px;
 }
-
 .content h1{
     font-size: 50px;
     margin-top: 9%;
     padding-left: 20px;
     letter-spacing: 2px;
-
 }
-
 .content .cn{
     width: 160px;
     height: 40px;
@@ -150,28 +122,21 @@ ul li a:hover{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    
 }
-
 .cn a{
     text-decoration: none;
     color: white;
 }
-
 .cn a:hover{
-    
     color: rgb(255, 255, 255);
 }
-
 .content .cn:hover{
-    background-color: rgb(248, 10, 10);
+    background-color: rgb(30, 248, 10);
 }
-
 .content span{
     color: orange;
     font-size: 60px;
 }
-
 .form{
     width: 250px;
     height: 380px;
@@ -182,7 +147,6 @@ ul li a:hover{
     border-radius: 10px;
     padding: 25px;
 }
-
 .form h2{
     width: 220px;
     font-family: sans-serif;
@@ -193,9 +157,7 @@ ul li a:hover{
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
-
 }
-
 .form input{
     width: 240px;
     height: 35px;
@@ -208,18 +170,13 @@ ul li a:hover{
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
-
 }
-
 .form input:focus{
     outline: none;
-
 }
-
 ::placeholder{
     color: #fff;
 }
-
 .btnn{
     width: 240px;
     height: 40px;
@@ -232,44 +189,34 @@ ul li a:hover{
     font-weight: bold;
     font-size: 17px;
 }
-
 .form .link{
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
 }
-
 .form .link a{
     text-decoration: none;
     color: orange;
     text-align: center;
 }
-    
-
 .liw{
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
 }
-
 .iconss{
     text-align: center;
 }
-
 .iconss a{
     color: white;
-    
 }
-
 .iconss ion-icon{
     color: white;
     font-size: 20px;
     padding-left: 14px;
     padding-top: 5px;
     transition: 0.4s ease-in-out;
-    
 }
-
 .iconss ion-icon:hover{
     color: orange;
 }
