@@ -3,8 +3,9 @@
     padding: 0;
 }
 .main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/bg.avif);
+    width: 1280px; /* Set width to match frame width */
+    height: 760px; /* Set height to match frame height */
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/bg.jpg);
     object-fit: cover; /* Make the image fill the space while maintaining aspect ratio */
     height: 100vh;
     background-size: cover;
