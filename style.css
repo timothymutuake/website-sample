@@ -1,4 +1,4 @@
-*{
+    *{
     margin:0;
     padding: 0;
 }
@@ -170,7 +170,7 @@ ul li a:hover{
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .form input:focus{
     outline: none;
@@ -182,7 +182,7 @@ ul li a:hover{
     width: 240px;
     height: 40px;
     background-color: orange;
-    margin-top: 30px;
+    margin-top: 20px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
